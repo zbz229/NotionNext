@@ -27,7 +27,8 @@ const Footer = ({ title }) => {
       <span className='pl-2 hidden busuanzi_container_site_uv'>
         <i className='fas fa-users'/> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
         <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>{title} | {BLOG.BIO}</h1>
-
+      </span><br/>
+  
 <div>51Sec Apps</div>
 <script async src="https://fundingchoicesmessages.google.com/i/pub-5660349373091698?ers=1" nonce="71EKVshklXofUN3O1mph_A"></script><script nonce="71EKVshklXofUN3O1mph_A">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
@@ -110,7 +111,7 @@ if(!document.getElementById('eNmOUiSgyxfM')){
 
 </script>
        
-      </span><br/>
+
 
     </footer>
   )
