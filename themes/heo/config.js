@@ -5,7 +5,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: 'Welcome to NetSec's Notion Site', url: 'https://notion.51sec.org' },
+    { title: 'Welcome to my Notion based Knowledge Collection and Shareing Site', url: 'https://notion.51sec.org' },
     { title: 'Visit Blog for More', url: 'https://blog.51sec.org' }
   ],
 
