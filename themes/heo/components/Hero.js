@@ -75,7 +75,7 @@ function Banner(props) {
         {/* 遮罩 */}
         <div id='banner-cover' style={{ backdropFilter: 'blur(15px)' }} className={'opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[#4259efdd] dark:bg-[#dca846] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'}>
             <div className='ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in'>
-                <div className='text-7xl text-white font-extrabold'>随便逛逛</div>
+                <div className='text-7xl text-white font-extrabold'>Random Content</div>
                 <div className='-ml-3 text-gray-300'><ArrowSmallRight className={'w-24 h-24 stroke-2'} /></div>
             </div>
         </div>
@@ -168,7 +168,7 @@ function TopGroup(props) {
                             <div className='group-hover:text-indigo-600 dark:group-hover:text-yellow-600 line-clamp-2 overflow-hidden m-2 font-semibold'>{p?.title}</div>
                             {/* hover 悬浮的 ‘荐’ 字 */}
                             <div className='opacity-0 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0 duration-200 transition-all absolute -top-2 -left-2 bg-indigo-600 dark:bg-yellow-600  text-white rounded-xl overflow-hidden pr-2 pb-2 pl-4 pt-4 text-xs'>
-                                荐
+                                Recommended
                             </div>
                         </div>
                     </Link>
@@ -225,7 +225,7 @@ function TodayCard({ cRef }) {
                 </div>
                 <div onClick={handleClickMore} className={`'${isCoverUp ? '' : 'hidden pointer-events-none '} flex items-center px-3 h-10 justify-center bg-[#425aef] hover:bg-[#4259efcb] transition-colors duration-100 rounded-3xl`}>
                     <PlusSmall className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'} />
-                    <div id='more' className='select-none'>更多推荐</div>
+                    <div id='more' className='select-none'>More Recommended</div>
                 </div>
             </div>
             <div id='today-card-cover' className={`${isCoverUp ? '' : ' pointer-events-none'} cursor-pointer today-card-cover absolute w-full h-full top-0`} style={{ background: "url('https://bu.dusays.com/2023/03/12/640dcd3a1b146.png') no-repeat center /cover" }}></div>
