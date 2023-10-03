@@ -87,6 +87,8 @@ const LayoutIndex = (props) => {
         {/* 通知横幅 */}
         <NoticeBar />
         <Hero {...props} />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
+     crossorigin="anonymous"></script>
     </header>
 
   // 右侧栏 用户信息+标签列表
@@ -112,6 +114,8 @@ const LayoutPostList = (props) => {
   const headerSlot = <header>
         {/* 顶部导航 */}
         <div id='nav-bar-wrapper' className='h-16'><NavBar {...props} /></div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
+     crossorigin="anonymous"></script>
     </header>
 
   return <LayoutBase {...props} slotRight={slotRight} headerSlot={headerSlot}>
@@ -136,6 +140,8 @@ const LayoutSearch = props => {
         {/* 顶部导航 */}
         <div id='nav-bar-wrapper'><NavBar {...props} /></div>
         <PostHeader {...props} />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
+     crossorigin="anonymous"></script>
     </header>
 
   useEffect(() => {
@@ -177,6 +183,8 @@ const LayoutArchive = (props) => {
   const headerSlot = <header>
         {/* 顶部导航 */}
         <div id='nav-bar-wrapper' className='h-16'><NavBar {...props} /></div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
+     crossorigin="anonymous"></script>
     </header>
 
   // 归档页顶部显示条，如果是默认归档则不显示。分类详情页显示分类列表，标签详情页显示当前标签
@@ -219,6 +227,8 @@ const LayoutSlug = props => {
         {/* 顶部导航 */}
         <div id='nav-bar-wrapper'><NavBar {...props} /></div>
         <PostHeader {...props} />
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
+     crossorigin="anonymous"></script>
     </header>
 
   return (
@@ -286,6 +296,8 @@ const Layout404 = props => {
             <header>
                 {/* 顶部导航 */}
                 <div id='nav-bar-wrapper' className='h-16'><NavBar {...props} /></div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
+     crossorigin="anonymous"></script>
             </header>
 
             {/* 主区块 */}
@@ -344,6 +356,8 @@ const LayoutCategoryIndex = props => {
   const headerSlot = <header>
         {/* 顶部导航 */}
         <div id='nav-bar-wrapper' className='h-16'><NavBar {...props} /></div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
+     crossorigin="anonymous"></script>
     </header>
 
   return (
