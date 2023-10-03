@@ -383,6 +383,10 @@ const LayoutTagIndex = props => {
   const headerSlot = <header>
         {/* 顶部导航 */}
         <div id='nav-bar-wrapper' className='h-16'><NavBar {...props} /></div>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
+     crossorigin="anonymous"></script>
+    
     </header>
   return (
         <LayoutBase {...props} className='mt-8' headerSlot={headerSlot}>
